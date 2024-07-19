@@ -1,0 +1,429 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><h1>travelaja</h1></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <li class="nav-item dropdown ml-auto">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            ID
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">1</a>
+            <a class="dropdown-item" href="#">2</a>
+            <a class="dropdown-item" href="#">3</a>
+          </div>
+        </li>
+      </nav>
+      <div class="text-center mx-auto my-auto text-white header-content">
+        <div class="content">
+          <h1>Explore the world with a smile</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo,
+          </p>
+        </div>
+        <div class="container my-5">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form class="d-flex">
+                <div class="input-group">
+                  <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="City or Destination"
+                    aria-label="City or Destination"
+                  />
+                </div>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Date of stay"
+                    aria-label="Date of stay"
+                  />
+                </div>
+                <div class="input-group items-center">
+                  <!-- <span class="input-group-text"><i class="bi bi-people-fill"></i></span> -->
+                  <input
+                    type="text"
+                    class="form-control search-form"
+                    placeholder="Person"
+                    aria-label="Person"
+                  />
+                  <button class="btn btn-success" type="submit">
+                    Find Trip Now <span><i class="fa fa-search"></i></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="content1">
+          <div class="content1-left">
+            <div class="image-grid">
+              <div><img id="img1" src="./assets/home1.png" alt="" /></div>
+              <div><img id="img2" src="./assets/home2.png" alt="" /></div>
+              <div><img id="img3" src="./assets/home3.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="content1-right">
+            <p id="spec1">Travelers Point</p>
+            <h3>We help to find your dream place</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor rhoncus dolor purus non enim praesent elementum
+              facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
+            </p>
+            <div class="flex flex-row inner-content">
+              <div class="inner-content-left">
+                <p id="spec2">100+</p>
+                <p>Holiday Package</p>
+                <p id="spec2">68</p>
+                <p>Elite Transportation</p>
+              </div>
+              <div class="inner-content-right">
+                <p id="spec2">172</p>
+                <p>Hotels</p>
+                <p id="spec2">32M+</p>
+                <p>we help to find your dream place</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mx-auto content2">
+          <p>Top Destination</p>
+          <h3>Discover your love</h3>
+        </div>
+        <div class="mt-4">
+          <div class="image-grid2">
+            <div class="group-img">
+              <img src="./assets/img1.png" alt="" />
+              <h4>Taman Nasional Komodo</h4>
+              <div class="flex img-content">
+                <div class="img-left">
+                  <p>Rp. 7,5jt</p>
+                </div>
+                <div class="img-right">
+                  <p class="text-right">7 days for trips</p>
+                </div>
+              </div>
+            </div>
+            <div class="group-img">
+              <img src="./assets/img2.png" alt="" />
+              <h4>Taman Nasional Bunaken</h4>
+              <div class="flex img-content">
+                <div class="img-left">
+                  <p>Rp. 10,5jt</p>
+                </div>
+                <div class="img-right">
+                  <p class="text-right">9 days for trips</p>
+                </div>
+              </div>
+            </div>
+            <div class="group-img">
+              <img src="./assets/img3.png" alt="" />
+              <h4>Raja Ampat, Papua Barat</h4>
+              <div class="flex img-content">
+                <div class="img-left">
+                  <p>Rp. 20,5jt</p>
+                </div>
+                <div class="img-right">
+                  <p class="text-right">14 days for trips</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-grid2">
+            <div class="group-img">
+              <img src="./assets/img4.png" alt="" />
+              <h4>Kepulauan Wakatobi</h4>
+              <div class="flex img-content">
+                <div class="img-left">
+                  <p>Rp. 9,5jt</p>
+                </div>
+                <div class="img-right">
+                  <p class="text-right">12 days for trips</p>
+                </div>
+              </div>
+            </div>
+            <div class="group-img">
+              <img src="./assets/img5.png" alt="" />
+              <h4>Gili Trawangan, Lombok</h4>
+              <div class="flex img-content">
+                <div class="img-left">
+                  <p>Rp. 6,5jt</p>
+                </div>
+                <div class="img-right">
+                  <p class="text-right">7 days for trips</p>
+                </div>
+              </div>
+            </div>
+            <div class="group-img">
+              <img src="./assets/img6.png" alt="" />
+              <h4>Taman Nasional Bromo</h4>
+              <div class="flex img-content">
+                <div class="img-left">
+                  <p>Rp. 9,5jt</p>
+                </div>
+                <div class="img-right">
+                  <p class="text-right">7 days for trips</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mx-auto content3">
+          <p>Testimonial</p>
+          <h3>What they say about us</h3>
+        </div>
+        <div class="mt-4">
+          <div class="image-grid3">
+            <div class="group-img2">
+              <div class="flex items-center img-content2">
+                <img src="./assets/user1.png" alt="" />
+                <h4>Angelina Simple</h4>
+              </div>
+              <div class="img-inner-content2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis
+                </p>
+              </div>
+            </div>
+            <div class="group-img2" id="active">
+              <div class="flex items-center img-content2">
+                <img src="./assets/user2.png" alt="" />
+                <h4>Viola Natalie</h4>
+              </div>
+              <div class="img-inner-content2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis
+                </p>
+              </div>
+            </div>
+            <div class="group-img2">
+              <div class="flex items-center img-content2">
+                <img src="./assets/user3.png" alt="" />
+                <h4>Robert John K.</h4>
+              </div>
+              <div class="img-inner-content2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="image-grid3">
+            <div class="group-img2">
+              <div class="flex items-center img-content2">
+                <img src="./assets/user4.png" alt="" />
+                <h4>Anggi Nani</h4>
+              </div>
+              <div class="img-inner-content2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis
+                </p>
+              </div>
+            </div>
+            <div class="group-img2">
+              <div class="flex items-center img-content2">
+                <img src="./assets/user5.png" alt="" />
+                <h4>Graham Suryo J</h4>
+              </div>
+              <div class="img-inner-content2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis
+                </p>
+              </div>
+            </div>
+            <div class="group-img2">
+              <div class="flex items-center img-content2">
+                <img src="./assets/user6.png" alt="" />
+                <h4>Bagas G Natfi</h4>
+              </div>
+              <div class="img-inner-content2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center text-lg-start text-muted">
+      <section class="border-bottom border-top">
+        <div class="container text-left text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h5 class="text">travelaja</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                urna, porttitor rhoncus dolor purus non enim praesent elementum
+                facilisis leo, vel
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h5 class="text">links</h5>
+              <p>
+                <a href="#!" class="text-reset">Discover</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Special Deals</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Services</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Community</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">About Us</a>
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h5 class="text">Services</h5>
+              <p>
+                <a href="#!" class="text-reset">About Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Blog & Articles</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Term and Condition</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Privacy Policy</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contact Us</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h5 class="text">Contact</h5>
+              <p>
+                <a href="#!" class="text-reset">Address: Jl.Codelaras No.205A</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Kediri, Pare AG17</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Phone: 123 456 7890</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Email: myagungperdana@gmail.com</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Maps: Kediri, East java</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <div class="container">
+            <div class="row">
+              <div class="mb-4">
+                <h3 class="text">Ikuti Kami</h3>
+                <div class="social-icon">
+                  <a href="#!" class="text-reset">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#!" class="text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#!" class="text-reset">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#!" class="text-reset">
+                    <i class="fab fa-dribbble"></i>
+                  </a>
+                  <a href="#!" class="text-reset">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
