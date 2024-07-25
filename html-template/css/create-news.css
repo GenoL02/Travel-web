@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins";
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-content {
+  width: calc(100% - 255px);
+  height: auto;
+}
+header {
+  height: 92px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+}
+header .avatar {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: right;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+nav {
+  position: relative;
+  width: 255px;
+  height: auto;
+  background-color: rgba(54, 55, 64, 1);
+}
+nav h1 {
+  width: 144px;
+  height: 54px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+nav img {
+  width: 24px;
+  height: 24px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  margin-top: 20px;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #a4a6b3;
+}
+nav ul li a:hover {
+  color: white;
+}
+nav ul li .active {
+  color: white;
+}
+main {
+  width: 100%;
+  height: auto;
+  background-color: #d9d9d9;
+}
+main .content {
+  padding: 30px 30px 50px 30px;
+}
+.content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+.form label span {
+  color: red;
+}
+.pic-upload .upload {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  /* Input */
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.check {
+  width: 40%;
+}
+.form-check {
+  width: 230px;
+}
+.buttons .button-group{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.buttons button {
+  box-sizing: border-box;
+  padding: 10px 16px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #eaecf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.buttons .cancel {
+  background: #eaecf0;
+  color: #000000;
+}
+.buttons .save {
+  background: rgba(67, 185, 127, 1);
+  color: #ffffff;
+}
+.buttons .draft {
+  background: rgba(102, 112, 133, 1);
+  color: #ffffff;
+}

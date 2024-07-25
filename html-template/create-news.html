@@ -1,0 +1,143 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create news</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/create-news.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="side-bar container">
+        <div class="admin" style="padding: 20px">
+          <h1>Admin</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a class="nav-link" href="#"
+                ><span><i class="fab fa-facebook-messenger"></i></span> Tours</a
+              >
+            </li>
+            <li>
+              <a class="nav-link active" href="#"
+                ><span><i class="fab fa-facebook-messenger"></i></span> News</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#"
+                ><span><i class="fab fa-facebook-messenger"></i></span>
+                Bookings</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-content">
+      <header>
+        <div class="avatar">
+          <div class="name"><p>John</p></div>
+          <div class="picture">
+            <img src="./assets/avatar.jpg" alt="" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="content">
+          <h3>Create News</h3>
+          <div class="mt-4 form">
+            <div class="form-group">
+              <label for="category">Category<span>*</span></label>
+              <select class="form-control">
+                <option selected>Choose item</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="title">Title<span>*</span></label>
+              <input
+                type="text"
+                id="title"
+                class="form-control"
+                placeholder="Enter title"
+              />
+            </div>
+            <div class="form-group">
+              <label for="slug">Slug<span>*</span></label>
+              <input
+                type="text"
+                id="slug"
+                class="form-control"
+                placeholder="Enter slug"
+              />
+            </div>
+            <div class="pic-upload">
+              <h4>Image</h4>
+              <div class="upload">
+                <button type="button" id="picture">Chose a file</button>
+              </div>
+            </div>
+            <div class="form-content">
+              <label for="content" class="mt-4">Content</label>
+              <img src="./assets/tool-bar.png" alt="" />
+            </div>
+            <div class="mt-4 flex justify-between items-center check">
+              <label for="status">Status</label>
+              <div
+                class="flex justify-between items-center form-check"
+                id="form-check2"
+              >
+                <div class="radio-container">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1"
+                    >Published</label
+                  >
+                </div>
+                <div class="radio-container">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2"
+                    >Unpublished</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-center buttons">
+              <div class="button-group">
+                <button class="btn cancel">Cancel</button>
+                <button class="btn draft">Draft</button>
+                <button class="btn save">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
