@@ -1,0 +1,13 @@
+$primary-color: rgba(67, 185, 127, 1);
+#app {
+  font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+a {
+  &.router-link-exact-active {
+    color: $primary-color;
+  }
+}

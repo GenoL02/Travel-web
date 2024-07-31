@@ -1,0 +1,13 @@
+{
+    "errors": {
+        "email": {
+            "required": "Email không được để trống",
+            "invalid": "Email không hợp lệ"
+        },
+        "password": {
+            "required": "Mật khẩu không được để trống",
+            "minLength": "Mật khẩu phải có ít nhất 6 ký tự"
+        }
+    },
+    "successMessage": "Gửi thành công! Chúng tôi sẽ liên hệ bạn sớm nhất có thể."
+}
